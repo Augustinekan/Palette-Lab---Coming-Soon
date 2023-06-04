@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  text-align: start;
+  background-image:url(./assets/flare.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: Poppins, serif;
 }
 
 .App-logo {
@@ -24,7 +29,12 @@
   color: white;
 }
 
+
 .App-link {
+  color: #61dafb;
+}
+
+.App-Button{
   color: #61dafb;
 }
 
@@ -36,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+
