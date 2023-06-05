@@ -1,12 +1,15 @@
 import './ComingSoon.css';
 import logo from './logo_plain.png';
+import './EmailFormComponent'
+import EmailFormComponent from "./EmailFormComponent";
 
 function ComingSoonComponent(){
     return<div className="Coming-soon">
         <PaletteLabLogo/>
         <ComingSoon/>
         <MyText/>
-        <MyButton/>
+        <EmailFormComponent/>
+        {/*<MyButton/>*/}
     </div>
 }
 

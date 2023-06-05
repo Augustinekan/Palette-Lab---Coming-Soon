@@ -33,3 +33,31 @@
     font-weight: bold;
     color: #273B4A;
 }
+
+.email-form-container{
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:2px solid #0174C5;
+}
+
+
+.form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.email-form{
+    display: flex;
+}
+
+.email-submit-button{
+    font-weight: bold;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    border: 0 transparent;
+    padding: 12px 60px;
+    background: linear-gradient(90deg,#0147B0, #0174C5);
+}
