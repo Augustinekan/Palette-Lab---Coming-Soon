@@ -5,6 +5,10 @@
   background-size: cover;
   min-height: 100vh;
   font-family: Poppins, serif;
+  margin-top: 0;
+  padding: 0;
+  background-color: aquamarine;
+  display: flex;
 }
 
 .App-logo {

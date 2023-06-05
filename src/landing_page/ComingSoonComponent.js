@@ -1,12 +1,25 @@
 import './ComingSoon.css';
+import logo from './logo_plain.png';
 
 function ComingSoonComponent(){
     return<div className="Coming-soon">
+        <PaletteLabLogo/>
         <ComingSoon/>
         <MyText/>
         <MyButton/>
     </div>
 }
+
+function PaletteLabLogo(){
+return<div className="row">
+
+        <img className="app-logo" src={logo}/>
+
+        <div className="app-title">Palette Lab</div>
+    </div>
+
+}
+
 
 function ComingSoon(){
     return <div className="Coming-soon-text">

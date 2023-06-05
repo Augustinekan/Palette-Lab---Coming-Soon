@@ -9,9 +9,6 @@ import ComingSoonComponent from "./landing_page/ComingSoonComponent";
 function App() {
   return (
     <div
-        // style={{
-        //   backgroundImage: `url(/flare.png)`,
-        // }}
         className="App">
       {/*<header className="App-header">*/}
       {/*   */}
