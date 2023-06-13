@@ -2,6 +2,7 @@ import logo from './assets/logo.svg';
 import './App.css';
 import './landing_page/ComingSoonComponent'
 import ComingSoonComponent from "./landing_page/ComingSoonComponent";
+import MobileScreenshotsComponent from "./landing_page/MobileScreenshotsComponent";
 
 
 
@@ -14,7 +15,7 @@ function App() {
       {/*   */}
       {/*</header>*/}
       <ComingSoonComponent/>
-
+      <MobileScreenshotsComponent/>
     </div>
   );
 }
