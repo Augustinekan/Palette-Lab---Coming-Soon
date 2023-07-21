@@ -43,7 +43,9 @@ const Home = () => {
 
       {/* Right side */}
       <div className='hero-section-right'>
+        <a href="https://play.google.com/store/apps/details?id=com.risma.palettelab&hl=en_US" target="_blank" rel="noreferrer">
         <img src={screenshots} alt="Screenshots"></img>
+        </a>a>
         <p>Available on google play store</p>
       </div>
     </div>
