@@ -9,7 +9,7 @@ const LogoContainer = styled.div`
 
   @media (max-width: 575px) {
     display:flex;
-    color: blue;
+    color: #0174C5;
   }
 `;
 const LogoImage = styled.img`
