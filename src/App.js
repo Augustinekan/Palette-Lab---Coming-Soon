@@ -2,9 +2,6 @@ import './App.css';
 import Home from './components/Home';
 import Logo from './components/Logo';
 
-
-
-
 function App() {
   return (
     <div className="App">
