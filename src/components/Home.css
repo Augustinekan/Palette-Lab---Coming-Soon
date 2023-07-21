@@ -1,0 +1,261 @@
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hero-section-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero-section-left h1{
+    color: blue;
+    font-size: 4rem;
+}
+
+.hero-section-left p{
+    width: 45%;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 3.5rem;
+}
+
+.hero-section-right{
+    flex: 1;
+}
+
+.hero-section-right p{
+    font-size: 2rem;
+    width: 35%;
+    font-weight: 700;
+    margin-left: 5rem;
+}
+
+.hero-email {
+  display: flex; 
+  align-items: center;
+}
+
+
+.hero-email input[type='email'] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 360px;
+  border-radius: 5px 0 0 5px; 
+}
+
+.hero-email button {
+  padding: 10px 20px;
+  background-color: #007bff; 
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  margin-left: -5rem;
+}
+
+/* Extra Small Devices (Mobile Phones) */
+@media (max-width: 575px) {
+  /* Your CSS styles for mobile phones */
+  .hero-section {
+    flex-direction: column;
+    padding: 50px;
+    height: 150vh;
+  }
+
+  .hero-section-left,
+  .hero-section-right {
+    max-width: 100%;
+    max-height: 150vh; 
+    padding: 1rem;
+  }
+
+  .hero-section-left h1{
+    margin-top: 10rem;
+    
+  }
+  .hero-section-left p{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+  .hero-section-right img {
+    margin-top: 20px;
+    width: 350px;
+  }
+}
+
+.hero-section-right p{
+    width: 90%;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 3.5rem;
+}
+
+.hero-email input[type='email'] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 360px;
+  border-radius: 5px 0 0 5px; 
+}
+
+.hero-email button {
+  padding: 10px 10px;
+  background-color: #007bff; 
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  margin-left: -5rem;
+}
+
+/* Small Devices (Mobile Phones and Small Tablets) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Your CSS styles for small devices */
+  .hero-section {
+    flex-direction: column;
+    padding: 50px;
+    height: 150vh;
+  }
+
+  .hero-section-left,
+  .hero-section-right {
+    max-width: 100%;
+    max-height: 150vh; 
+    padding-top: 2rem;
+  }
+
+  .hero-section-left h1{
+    margin-top: 10rem;
+    
+  }
+  .hero-section-left p{
+    width: 80%;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+  .hero-section-right img {
+    margin-top: 40px;
+    width: 450px;
+  }
+}
+
+.hero-section-right p{
+    width: 90%;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 3.5rem;
+}
+
+.hero-email input[type='email'] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 360px;
+  border-radius: 5px 0 0 5px; 
+}
+
+.hero-email button {
+  padding: 10px 10px;
+  background-color: #007bff; 
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  margin-left: -5rem;
+}
+
+
+/* Medium Devices (Tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your CSS styles for tablets */
+  .hero-section {
+    flex-direction: column;
+    padding: 20px;
+    height: 250vh;
+  }
+
+  .hero-section-left,
+  .hero-section-right {
+    max-width: 100%;
+  }
+
+  .hero-section-right img {
+    margin-top: 20px;
+  }
+}
+
+/* Large Devices (Desktops and Laptops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Your CSS styles for large devices */
+  .hero-section-left p{
+    width: 85%;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 3.5rem;
+}
+
+.hero-section-right p{
+    width: 60%;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 3.5rem;
+}
+.hero-section-right img {
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+  }
+}
+
+/* Extra Large Devices (Large Desktops and High-Resolution Screens) */
+@media (min-width: 1200px) {
+  /* Your CSS styles for extra-large devices */
+  .hero-section-left{
+    margin-top: -20rem;
+  }
+  .hero-section-left p{
+    width: 45%;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+.hero-section-right{
+  margin-top: -20rem;
+  padding: 1rem;
+}
+
+.hero-section-right p{
+    font-size: 2rem;
+    width: 35%;
+    font-weight: 700;
+    margin-left: 5rem;
+}
+
+.hero-section-right img{
+    height: 500px;
+    width: 450px;
+}
+}
+
