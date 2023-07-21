@@ -4,6 +4,7 @@ import './landing_page/ComingSoonComponent'
 // import ComingSoonComponent from "./landing_page/ComingSoonComponent";
 // import MobileScreenshotsComponent from "./landing_page/MobileScreenshotsComponent";
 import Home from './components/Home';
+import Logo from './components/Logo';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       {/*</header>*/}
       {/* <ComingSoonComponent/>
       <MobileScreenshotsComponent/> */}
+      <Logo />
       <Home />
     </div>
   );
