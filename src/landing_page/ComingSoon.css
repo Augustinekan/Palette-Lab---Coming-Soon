@@ -35,7 +35,7 @@
 }
 
 .email-form-container{
-
+    max-width: 50%;
     border-radius: 20px;
     background-color: #ffffff;
     border:2px solid #0174C5;
@@ -61,4 +61,7 @@
     border: 0 transparent;
     padding: 12px 60px;
     background: linear-gradient(90deg,#0147B0, #0174C5);
+}
+.app{
+    background-color: black;
 }

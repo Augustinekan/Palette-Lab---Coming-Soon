@@ -9,6 +9,15 @@
   padding: 0;
   background-color: aquamarine;
   display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+/* Media query for 50% screen width */
+@media (max-width: 50vw) {
+  .App {
+    flex-direction: column;
+  }
 }
 
 .App-logo {
