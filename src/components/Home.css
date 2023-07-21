@@ -230,11 +230,20 @@
 /* Extra Large Devices (Large Desktops and High-Resolution Screens) */
 @media (min-width: 1200px) {
   /* Your CSS styles for extra-large devices */
+  .hero-section-left{
+    margin-top: -20rem;
+  }
   .hero-section-left p{
-    width: 45%;
+    width: 60%;
     font-size: 3rem;
     font-weight: 600;
     margin-left: 3rem;
+    padding: 1rem;
+}
+
+.hero-section-right{
+  margin-top: -20rem;
+  padding: 1rem;
 }
 
 .hero-section-right p{
@@ -245,8 +254,8 @@
 }
 
 .hero-section-right img{
-    height: 450px;
-    width: 400px;
+    height: 500px;
+    width: 450px;
 }
 }
 
