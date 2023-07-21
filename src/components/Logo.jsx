@@ -16,7 +16,7 @@ const LogoImage = styled.img`
   /* Set the initial size for the logo. */
   width: 100px;
   height: 100px;
-  margin-left: 15rem;
+  margin-left: 10rem;
 
   /* Define responsive sizing using media queries. */
   @media (max-width: 768px) {
