@@ -14,7 +14,7 @@
 }
 
 .hero-section-left h1{
-    color: blue;
+    color: #0174C5;
     font-size: 4rem;
 }
 
@@ -53,8 +53,8 @@
 
 .hero-email button {
   padding: 10px 20px;
-  background-color: #007bff; 
-  background-color: blue;
+  background-color: #0174C5;
+
   color: #fff;
   border: none;
   border-radius: 0 5px 5px 0;
@@ -115,7 +115,7 @@
 
 .hero-email button {
   padding: 10px;
-  background-color: blue;
+  background-color: #0174C5;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -173,8 +173,7 @@
 
 .hero-email button {
   padding: 10px 10px;
-  background-color: #007bff; 
-  background-color: blue;
+  background-color: #0174C5;
   color: #fff;
   border: none;
   border-radius: 0 5px 5px 0;
