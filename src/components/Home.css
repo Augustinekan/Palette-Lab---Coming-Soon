@@ -83,24 +83,25 @@
     
   }
   .hero-section-left p{
-    width: 100%;
+    width: 90%;
     font-size: 2rem;
     font-weight: 600;
-    margin-left: 3rem;
+    margin-left: 1rem;
     padding-bottom: 2rem;
 }
 
   .hero-section-right img {
     margin-top: 20px;
-    width: 350px;
+    width: 300px;
   }
 }
 
 .hero-section-right p{
-    width: 90%;
-    font-size: 3rem;
+    width: 70%;
+    font-size: 2rem !important;
     font-weight: 600;
-    margin-left: 3.5rem;
+    margin-left: -1rem !important;
+    padding: 2rem !important;
 }
 
 .hero-email input[type='email'] {
@@ -108,19 +109,16 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-right: 10px;
-  width: 360px;
+  width: 250px !important;
   border-radius: 5px 0 0 5px; 
 }
 
 .hero-email button {
-  padding: 10px 10px;
-  background-color: #007bff; 
+  padding: 10px;
   background-color: blue;
   color: #fff;
   border: none;
-  border-radius: 0 5px 5px 0;
   cursor: pointer;
-  margin-left: -5rem;
 }
 
 /* Small Devices (Mobile Phones and Small Tablets) */
